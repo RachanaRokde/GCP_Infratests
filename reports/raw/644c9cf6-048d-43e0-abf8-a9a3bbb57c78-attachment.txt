@@ -1,0 +1,2654 @@
+Project ID: de0360-pkce-rubix-cl-dev000, Instances: ListPager<id: "projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances"
+items {
+  cpu_platform: "Unknown CPU Platform"
+  creation_timestamp: "2023-07-20T11:37:38.617-07:00"
+  deletion_protection: false
+  disks {
+    auto_delete: true
+    boot: true
+    device_name: "persistent-disk-0"
+    disk_size_gb: 2000
+    guest_os_features {
+      type_: "UEFI_COMPATIBLE"
+    }
+    guest_os_features {
+      type_: "VIRTIO_SCSI_MULTIQUEUE"
+    }
+    guest_os_features {
+      type_: "GVNIC"
+    }
+    index: 0
+    interface: "SCSI"
+    kind: "compute#attachedDisk"
+    licenses: "https://www.googleapis.com/compute/v1/projects/cloud-dataproc/global/licenses/dataproc"
+    mode: "READ_WRITE"
+    source: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/disks/cdp-rubix-dev-eagle-m"
+    type_: "PERSISTENT"
+  }
+  fingerprint: "vq9jQFapvmY="
+  id: 1498129581454180382
+  kind: "compute#instance"
+  label_fingerprint: "8b2EXPgs-Wg="
+  labels {
+    key: "goog-dataproc-location"
+    value: "europe-west3"
+  }
+  labels {
+    key: "goog-dataproc-cluster-uuid"
+    value: "4910b7eb-3c1e-4c29-8571-467cadaeb8f8"
+  }
+  labels {
+    key: "goog-dataproc-cluster-name"
+    value: "cdp-rubix-dev-eagle"
+  }
+  labels {
+    key: "environment"
+    value: "dev"
+  }
+  labels {
+    key: "app-parent"
+    value: "eagle"
+  }
+  labels {
+    key: "app-name"
+    value: "eagle"
+  }
+  last_start_timestamp: "2023-07-21T00:00:09.047-07:00"
+  last_stop_timestamp: "2023-07-21T03:35:02.486-07:00"
+  machine_type: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/machineTypes/e2-highmem-16"
+  metadata {
+    fingerprint: "KxV2pE4tK1w="
+    items {
+      key: "dataproc-bucket"
+      value: "rubix-dataproc-staging-dev"
+    }
+    items {
+      key: "dataproc-cloud-logging-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-cluster-configuration-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/"
+    }
+    items {
+      key: "dataproc-cluster-name"
+      value: "cdp-rubix-dev-eagle"
+    }
+    items {
+      key: "dataproc-cluster-uuid"
+      value: "4910b7eb-3c1e-4c29-8571-467cadaeb8f8"
+    }
+    items {
+      key: "dataproc-exclude-file-location"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/nodes_exclude.xml"
+    }
+    items {
+      key: "dataproc-include-file-location"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/nodes_include"
+    }
+    items {
+      key: "dataproc-initialization-script-0"
+      value: "gs://rubix-dataproc-code-dev/initialization-actions/eagle_init.sh"
+    }
+    items {
+      key: "dataproc-initialization-script-count"
+      value: "1"
+    }
+    items {
+      key: "dataproc-initialization-script-timeout-sec-0"
+      value: "3600"
+    }
+    items {
+      key: "dataproc-master"
+      value: "cdp-rubix-dev-eagle-m"
+    }
+    items {
+      key: "dataproc-master-additional"
+      value: ""
+    }
+    items {
+      key: "dataproc-region"
+      value: "europe-west3"
+    }
+    items {
+      key: "dataproc-temp-bucket"
+      value: "dataproc-temp-europe-west3-827519078088-m4vsgpjh"
+    }
+    items {
+      key: "dataproc-worker-agent-runner-daemon-timeout"
+      value: "30"
+    }
+    items {
+      key: "dataproc-worker-count"
+      value: "2"
+    }
+    items {
+      key: "has-driver-pool"
+      value: "false"
+    }
+    items {
+      key: "hive-metastore-instace"
+      value: "de0360-pkce-rubix-cl-dev000:europe-west3:cs-rubix-dev-eagle-metastore"
+    }
+    items {
+      key: "master-run-driver-location"
+      value: "LOCAL"
+    }
+    items {
+      key: "dataproc-agent-output-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/cdp-rubix-dev-eagle-m"
+    }
+    items {
+      key: "dataproc-cluster-properties"
+      value: "ZIPPY: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"
+    }
+    items {
+      key: "dataproc-cluster-properties-file"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/cluster.properties"
+    }
+    items {
+      key: "dataproc-datanode-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-option-run-init-actions-early"
+      value: "true"
+    }
+    items {
+      key: "dataproc-protocol-spec"
+      value: "EloKK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20SK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20="
+    }
+    items {
+      key: "dataproc-role"
+      value: "Master"
+    }
+    items {
+      key: "node-group-roles"
+      value: "MASTER"
+    }
+    kind: "compute#metadata"
+  }
+  name: "cdp-rubix-dev-eagle-m"
+  network_interfaces {
+    fingerprint: "aItNDX5TqxI="
+    kind: "compute#networkInterface"
+    name: "nic0"
+    network: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/global/networks/nonprod-spoke-ode-dev-0"
+    network_i_p: "100.64.0.21"
+    stack_type: "IPV4_ONLY"
+    subnetwork: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/regions/europe-west3/subnetworks/nonprod-ew3-dedicated-ode-dev-hub"
+  }
+  scheduling {
+    automatic_restart: true
+    on_host_maintenance: "MIGRATE"
+    preemptible: false
+    provisioning_model: "STANDARD"
+  }
+  self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances/cdp-rubix-dev-eagle-m"
+  service_accounts {
+    email: "svc-rubix-eagle@de0360-pkce-rubix-cl-dev000.iam.gserviceaccount.com"
+    scopes: "https://www.googleapis.com/auth/cloud-platform"
+    scopes: "https://www.googleapis.com/auth/cloud.useraccounts.readonly"
+    scopes: "https://www.googleapis.com/auth/devstorage.read_write"
+    scopes: "https://www.googleapis.com/auth/logging.write"
+  }
+  shielded_instance_config {
+    enable_integrity_monitoring: true
+    enable_secure_boot: true
+    enable_vtpm: true
+  }
+  shielded_instance_integrity_policy {
+    update_auto_learn_policy: true
+  }
+  start_restricted: false
+  status: "TERMINATED"
+  tags {
+    fingerprint: "pv15kuvxnes="
+    items: "allow-iap"
+    items: "allow-nat"
+  }
+  zone: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a"
+}
+items {
+  cpu_platform: "Unknown CPU Platform"
+  creation_timestamp: "2023-07-20T11:37:38.674-07:00"
+  deletion_protection: false
+  disks {
+    auto_delete: true
+    boot: true
+    device_name: "persistent-disk-0"
+    disk_size_gb: 50
+    guest_os_features {
+      type_: "UEFI_COMPATIBLE"
+    }
+    guest_os_features {
+      type_: "VIRTIO_SCSI_MULTIQUEUE"
+    }
+    guest_os_features {
+      type_: "GVNIC"
+    }
+    index: 0
+    interface: "SCSI"
+    kind: "compute#attachedDisk"
+    licenses: "https://www.googleapis.com/compute/v1/projects/cloud-dataproc/global/licenses/dataproc"
+    mode: "READ_WRITE"
+    source: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/disks/cdp-rubix-dev-eagle-w-0"
+    type_: "PERSISTENT"
+  }
+  fingerprint: "f2Cyeu1a-g4="
+  id: 5972879711633981470
+  kind: "compute#instance"
+  label_fingerprint: "8b2EXPgs-Wg="
+  labels {
+    key: "goog-dataproc-location"
+    value: "europe-west3"
+  }
+  labels {
+    key: "goog-dataproc-cluster-uuid"
+    value: "4910b7eb-3c1e-4c29-8571-467cadaeb8f8"
+  }
+  labels {
+    key: "goog-dataproc-cluster-name"
+    value: "cdp-rubix-dev-eagle"
+  }
+  labels {
+    key: "environment"
+    value: "dev"
+  }
+  labels {
+    key: "app-parent"
+    value: "eagle"
+  }
+  labels {
+    key: "app-name"
+    value: "eagle"
+  }
+  last_start_timestamp: "2023-07-20T23:59:57.541-07:00"
+  last_stop_timestamp: "2023-07-21T03:36:19.196-07:00"
+  machine_type: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/machineTypes/n2-highmem-16"
+  metadata {
+    fingerprint: "vHVyO95eRgU="
+    items {
+      key: "dataproc-bucket"
+      value: "rubix-dataproc-staging-dev"
+    }
+    items {
+      key: "dataproc-cloud-logging-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-cluster-configuration-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/"
+    }
+    items {
+      key: "dataproc-cluster-name"
+      value: "cdp-rubix-dev-eagle"
+    }
+    items {
+      key: "dataproc-cluster-uuid"
+      value: "4910b7eb-3c1e-4c29-8571-467cadaeb8f8"
+    }
+    items {
+      key: "dataproc-exclude-file-location"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/nodes_exclude.xml"
+    }
+    items {
+      key: "dataproc-include-file-location"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/nodes_include"
+    }
+    items {
+      key: "dataproc-initialization-script-0"
+      value: "gs://rubix-dataproc-code-dev/initialization-actions/eagle_init.sh"
+    }
+    items {
+      key: "dataproc-initialization-script-count"
+      value: "1"
+    }
+    items {
+      key: "dataproc-initialization-script-timeout-sec-0"
+      value: "3600"
+    }
+    items {
+      key: "dataproc-master"
+      value: "cdp-rubix-dev-eagle-m"
+    }
+    items {
+      key: "dataproc-master-additional"
+      value: ""
+    }
+    items {
+      key: "dataproc-region"
+      value: "europe-west3"
+    }
+    items {
+      key: "dataproc-temp-bucket"
+      value: "dataproc-temp-europe-west3-827519078088-m4vsgpjh"
+    }
+    items {
+      key: "dataproc-worker-agent-runner-daemon-timeout"
+      value: "30"
+    }
+    items {
+      key: "dataproc-worker-count"
+      value: "2"
+    }
+    items {
+      key: "has-driver-pool"
+      value: "false"
+    }
+    items {
+      key: "hive-metastore-instace"
+      value: "de0360-pkce-rubix-cl-dev000:europe-west3:cs-rubix-dev-eagle-metastore"
+    }
+    items {
+      key: "master-run-driver-location"
+      value: "LOCAL"
+    }
+    items {
+      key: "dataproc-agent-output-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/cdp-rubix-dev-eagle-w-0"
+    }
+    items {
+      key: "dataproc-cluster-properties"
+      value: "ZIPPY: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"
+    }
+    items {
+      key: "dataproc-cluster-properties-file"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/cluster.properties"
+    }
+    items {
+      key: "dataproc-datanode-enabled"
+      value: "true"
+    }
+    items {
+      key: "dataproc-option-run-init-actions-early"
+      value: "true"
+    }
+    items {
+      key: "dataproc-protocol-spec"
+      value: "EloKK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20SK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20="
+    }
+    items {
+      key: "dataproc-role"
+      value: "Worker"
+    }
+    items {
+      key: "node-group-roles"
+      value: "PRIMARY_WORKER"
+    }
+    kind: "compute#metadata"
+  }
+  name: "cdp-rubix-dev-eagle-w-0"
+  network_interfaces {
+    fingerprint: "zWfr5UZiFPU="
+    kind: "compute#networkInterface"
+    name: "nic0"
+    network: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/global/networks/nonprod-spoke-ode-dev-0"
+    network_i_p: "100.64.0.2"
+    stack_type: "IPV4_ONLY"
+    subnetwork: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/regions/europe-west3/subnetworks/nonprod-ew3-dedicated-ode-dev-hub"
+  }
+  scheduling {
+    automatic_restart: true
+    on_host_maintenance: "MIGRATE"
+    preemptible: false
+    provisioning_model: "STANDARD"
+  }
+  self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances/cdp-rubix-dev-eagle-w-0"
+  service_accounts {
+    email: "svc-rubix-eagle@de0360-pkce-rubix-cl-dev000.iam.gserviceaccount.com"
+    scopes: "https://www.googleapis.com/auth/cloud-platform"
+    scopes: "https://www.googleapis.com/auth/cloud.useraccounts.readonly"
+    scopes: "https://www.googleapis.com/auth/devstorage.read_write"
+    scopes: "https://www.googleapis.com/auth/logging.write"
+  }
+  shielded_instance_config {
+    enable_integrity_monitoring: true
+    enable_secure_boot: true
+    enable_vtpm: true
+  }
+  shielded_instance_integrity_policy {
+    update_auto_learn_policy: true
+  }
+  start_restricted: false
+  status: "TERMINATED"
+  tags {
+    fingerprint: "pv15kuvxnes="
+    items: "allow-iap"
+    items: "allow-nat"
+  }
+  zone: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a"
+}
+items {
+  cpu_platform: "Unknown CPU Platform"
+  creation_timestamp: "2023-07-20T11:37:38.609-07:00"
+  deletion_protection: false
+  disks {
+    auto_delete: true
+    boot: true
+    device_name: "persistent-disk-0"
+    disk_size_gb: 50
+    guest_os_features {
+      type_: "UEFI_COMPATIBLE"
+    }
+    guest_os_features {
+      type_: "VIRTIO_SCSI_MULTIQUEUE"
+    }
+    guest_os_features {
+      type_: "GVNIC"
+    }
+    index: 0
+    interface: "SCSI"
+    kind: "compute#attachedDisk"
+    licenses: "https://www.googleapis.com/compute/v1/projects/cloud-dataproc/global/licenses/dataproc"
+    mode: "READ_WRITE"
+    source: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/disks/cdp-rubix-dev-eagle-w-1"
+    type_: "PERSISTENT"
+  }
+  fingerprint: "_zMiL79XkYM="
+  id: 2584275610307444766
+  kind: "compute#instance"
+  label_fingerprint: "8b2EXPgs-Wg="
+  labels {
+    key: "goog-dataproc-location"
+    value: "europe-west3"
+  }
+  labels {
+    key: "goog-dataproc-cluster-uuid"
+    value: "4910b7eb-3c1e-4c29-8571-467cadaeb8f8"
+  }
+  labels {
+    key: "goog-dataproc-cluster-name"
+    value: "cdp-rubix-dev-eagle"
+  }
+  labels {
+    key: "environment"
+    value: "dev"
+  }
+  labels {
+    key: "app-parent"
+    value: "eagle"
+  }
+  labels {
+    key: "app-name"
+    value: "eagle"
+  }
+  last_start_timestamp: "2023-07-20T23:59:59.478-07:00"
+  last_stop_timestamp: "2023-07-21T03:35:49.160-07:00"
+  machine_type: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/machineTypes/n2-highmem-16"
+  metadata {
+    fingerprint: "rsEO7Y37vhI="
+    items {
+      key: "dataproc-bucket"
+      value: "rubix-dataproc-staging-dev"
+    }
+    items {
+      key: "dataproc-cloud-logging-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-cluster-configuration-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/"
+    }
+    items {
+      key: "dataproc-cluster-name"
+      value: "cdp-rubix-dev-eagle"
+    }
+    items {
+      key: "dataproc-cluster-uuid"
+      value: "4910b7eb-3c1e-4c29-8571-467cadaeb8f8"
+    }
+    items {
+      key: "dataproc-exclude-file-location"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/nodes_exclude.xml"
+    }
+    items {
+      key: "dataproc-include-file-location"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/nodes_include"
+    }
+    items {
+      key: "dataproc-initialization-script-0"
+      value: "gs://rubix-dataproc-code-dev/initialization-actions/eagle_init.sh"
+    }
+    items {
+      key: "dataproc-initialization-script-count"
+      value: "1"
+    }
+    items {
+      key: "dataproc-initialization-script-timeout-sec-0"
+      value: "3600"
+    }
+    items {
+      key: "dataproc-master"
+      value: "cdp-rubix-dev-eagle-m"
+    }
+    items {
+      key: "dataproc-master-additional"
+      value: ""
+    }
+    items {
+      key: "dataproc-region"
+      value: "europe-west3"
+    }
+    items {
+      key: "dataproc-temp-bucket"
+      value: "dataproc-temp-europe-west3-827519078088-m4vsgpjh"
+    }
+    items {
+      key: "dataproc-worker-agent-runner-daemon-timeout"
+      value: "30"
+    }
+    items {
+      key: "dataproc-worker-count"
+      value: "2"
+    }
+    items {
+      key: "has-driver-pool"
+      value: "false"
+    }
+    items {
+      key: "hive-metastore-instace"
+      value: "de0360-pkce-rubix-cl-dev000:europe-west3:cs-rubix-dev-eagle-metastore"
+    }
+    items {
+      key: "master-run-driver-location"
+      value: "LOCAL"
+    }
+    items {
+      key: "dataproc-agent-output-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/cdp-rubix-dev-eagle-w-1"
+    }
+    items {
+      key: "dataproc-cluster-properties"
+      value: "ZIPPY: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"
+    }
+    items {
+      key: "dataproc-cluster-properties-file"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/cluster.properties"
+    }
+    items {
+      key: "dataproc-datanode-enabled"
+      value: "true"
+    }
+    items {
+      key: "dataproc-option-run-init-actions-early"
+      value: "true"
+    }
+    items {
+      key: "dataproc-protocol-spec"
+      value: "EloKK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20SK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20="
+    }
+    items {
+      key: "dataproc-role"
+      value: "Worker"
+    }
+    items {
+      key: "node-group-roles"
+      value: "PRIMARY_WORKER"
+    }
+    kind: "compute#metadata"
+  }
+  name: "cdp-rubix-dev-eagle-w-1"
+  network_interfaces {
+    fingerprint: "fxexJaobzlY="
+    kind: "compute#networkInterface"
+    name: "nic0"
+    network: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/global/networks/nonprod-spoke-ode-dev-0"
+    network_i_p: "100.64.0.4"
+    stack_type: "IPV4_ONLY"
+    subnetwork: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/regions/europe-west3/subnetworks/nonprod-ew3-dedicated-ode-dev-hub"
+  }
+  scheduling {
+    automatic_restart: true
+    on_host_maintenance: "MIGRATE"
+    preemptible: false
+    provisioning_model: "STANDARD"
+  }
+  self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances/cdp-rubix-dev-eagle-w-1"
+  service_accounts {
+    email: "svc-rubix-eagle@de0360-pkce-rubix-cl-dev000.iam.gserviceaccount.com"
+    scopes: "https://www.googleapis.com/auth/cloud-platform"
+    scopes: "https://www.googleapis.com/auth/cloud.useraccounts.readonly"
+    scopes: "https://www.googleapis.com/auth/devstorage.read_write"
+    scopes: "https://www.googleapis.com/auth/logging.write"
+  }
+  shielded_instance_config {
+    enable_integrity_monitoring: true
+    enable_secure_boot: true
+    enable_vtpm: true
+  }
+  shielded_instance_integrity_policy {
+    update_auto_learn_policy: true
+  }
+  start_restricted: false
+  status: "TERMINATED"
+  tags {
+    fingerprint: "pv15kuvxnes="
+    items: "allow-iap"
+    items: "allow-nat"
+  }
+  zone: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a"
+}
+items {
+  cpu_platform: "Intel Cascade Lake"
+  creation_timestamp: "2023-07-05T05:53:53.539-07:00"
+  deletion_protection: false
+  disks {
+    auto_delete: true
+    boot: true
+    device_name: "persistent-disk-0"
+    disk_size_gb: 500
+    guest_os_features {
+      type_: "UEFI_COMPATIBLE"
+    }
+    guest_os_features {
+      type_: "VIRTIO_SCSI_MULTIQUEUE"
+    }
+    index: 0
+    interface: "SCSI"
+    kind: "compute#attachedDisk"
+    licenses: "https://www.googleapis.com/compute/v1/projects/cloud-dataproc/global/licenses/dataproc"
+    mode: "READ_WRITE"
+    source: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/disks/cdp-rubix-dev-m"
+    type_: "PERSISTENT"
+  }
+  fingerprint: "YMpgrHdaE1E="
+  id: 5988244433148631311
+  kind: "compute#instance"
+  label_fingerprint: "zsrtLf4M_CY="
+  labels {
+    key: "goog-dataproc-location"
+    value: "europe-west3"
+  }
+  labels {
+    key: "goog-dataproc-cluster-uuid"
+    value: "7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea"
+  }
+  labels {
+    key: "goog-dataproc-cluster-name"
+    value: "cdp-rubix-dev"
+  }
+  labels {
+    key: "environment"
+    value: "dev"
+  }
+  labels {
+    key: "app-parent"
+    value: "general"
+  }
+  labels {
+    key: "app-name"
+    value: "general"
+  }
+  last_start_timestamp: "2023-07-05T05:53:58.354-07:00"
+  machine_type: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/machineTypes/n2-highmem-8"
+  metadata {
+    fingerprint: "GoJKrMgWom0="
+    items {
+      key: "dataproc-bucket"
+      value: "rubix-dataproc-staging-dev"
+    }
+    items {
+      key: "dataproc-cloud-logging-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-cluster-configuration-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/"
+    }
+    items {
+      key: "dataproc-cluster-name"
+      value: "cdp-rubix-dev"
+    }
+    items {
+      key: "dataproc-cluster-uuid"
+      value: "7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea"
+    }
+    items {
+      key: "dataproc-initialization-script-0"
+      value: "gs://rubix-dataproc-code-dev/initialization-actions/connectors.sh"
+    }
+    items {
+      key: "dataproc-initialization-script-count"
+      value: "1"
+    }
+    items {
+      key: "dataproc-initialization-script-timeout-sec-0"
+      value: "3600"
+    }
+    items {
+      key: "dataproc-master"
+      value: "cdp-rubix-dev-m"
+    }
+    items {
+      key: "dataproc-master-additional"
+      value: ""
+    }
+    items {
+      key: "dataproc-region"
+      value: "europe-west3"
+    }
+    items {
+      key: "dataproc-temp-bucket"
+      value: "dataproc-temp-europe-west3-827519078088-m4vsgpjh"
+    }
+    items {
+      key: "dataproc-worker-agent-runner-daemon-timeout"
+      value: "30"
+    }
+    items {
+      key: "dataproc-worker-count"
+      value: "2"
+    }
+    items {
+      key: "has-driver-pool"
+      value: "false"
+    }
+    items {
+      key: "hive-metastore-instace"
+      value: "de0360-pkce-rubix-cl-dev000:europe-west3:cs-rubix-dev"
+    }
+    items {
+      key: "master-run-driver-location"
+      value: "LOCAL"
+    }
+    items {
+      key: "spark-bigquery-connector-version"
+      value: "0.21.0"
+    }
+    items {
+      key: "dataproc-agent-output-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/cdp-rubix-dev-m"
+    }
+    items {
+      key: "dataproc-cluster-properties"
+      value: "ZIPPY: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"
+    }
+    items {
+      key: "dataproc-cluster-properties-file"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/cluster.properties"
+    }
+    items {
+      key: "dataproc-datanode-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-option-run-init-actions-early"
+      value: "true"
+    }
+    items {
+      key: "dataproc-protocol-spec"
+      value: "EloKK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20SK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20="
+    }
+    items {
+      key: "dataproc-role"
+      value: "Master"
+    }
+    items {
+      key: "node-group-roles"
+      value: "MASTER"
+    }
+    kind: "compute#metadata"
+  }
+  name: "cdp-rubix-dev-m"
+  network_interfaces {
+    fingerprint: "0OFc9piiblw="
+    kind: "compute#networkInterface"
+    name: "nic0"
+    network: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/global/networks/nonprod-spoke-ode-dev-0"
+    network_i_p: "100.64.0.73"
+    stack_type: "IPV4_ONLY"
+    subnetwork: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/regions/europe-west3/subnetworks/nonprod-ew3-dedicated-ode-dev-hub"
+  }
+  scheduling {
+    automatic_restart: true
+    on_host_maintenance: "MIGRATE"
+    preemptible: false
+    provisioning_model: "STANDARD"
+  }
+  self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances/cdp-rubix-dev-m"
+  service_accounts {
+    email: "svc-rubix-cdp@de0360-pkce-rubix-cl-dev000.iam.gserviceaccount.com"
+    scopes: "https://www.googleapis.com/auth/cloud-platform"
+    scopes: "https://www.googleapis.com/auth/cloud.useraccounts.readonly"
+    scopes: "https://www.googleapis.com/auth/devstorage.read_write"
+    scopes: "https://www.googleapis.com/auth/logging.write"
+  }
+  shielded_instance_config {
+    enable_integrity_monitoring: true
+    enable_secure_boot: true
+    enable_vtpm: true
+  }
+  shielded_instance_integrity_policy {
+    update_auto_learn_policy: true
+  }
+  start_restricted: false
+  status: "RUNNING"
+  tags {
+    fingerprint: "vhz3Y1GT2ec="
+    items: "allow-iap"
+  }
+  zone: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a"
+}
+items {
+  cpu_platform: "Intel Cascade Lake"
+  creation_timestamp: "2023-07-05T05:53:53.515-07:00"
+  deletion_protection: false
+  disks {
+    auto_delete: true
+    boot: true
+    device_name: "persistent-disk-0"
+    disk_size_gb: 500
+    guest_os_features {
+      type_: "UEFI_COMPATIBLE"
+    }
+    guest_os_features {
+      type_: "VIRTIO_SCSI_MULTIQUEUE"
+    }
+    index: 0
+    interface: "SCSI"
+    kind: "compute#attachedDisk"
+    licenses: "https://www.googleapis.com/compute/v1/projects/cloud-dataproc/global/licenses/dataproc"
+    mode: "READ_WRITE"
+    source: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/disks/cdp-rubix-dev-w-0"
+    type_: "PERSISTENT"
+  }
+  fingerprint: "-2QN7XPrGQY="
+  id: 4271002107458935055
+  kind: "compute#instance"
+  label_fingerprint: "zsrtLf4M_CY="
+  labels {
+    key: "goog-dataproc-location"
+    value: "europe-west3"
+  }
+  labels {
+    key: "goog-dataproc-cluster-uuid"
+    value: "7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea"
+  }
+  labels {
+    key: "goog-dataproc-cluster-name"
+    value: "cdp-rubix-dev"
+  }
+  labels {
+    key: "environment"
+    value: "dev"
+  }
+  labels {
+    key: "app-parent"
+    value: "general"
+  }
+  labels {
+    key: "app-name"
+    value: "general"
+  }
+  last_start_timestamp: "2023-07-05T05:53:59.033-07:00"
+  machine_type: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/machineTypes/n2-highmem-8"
+  metadata {
+    fingerprint: "dLYeZK9vozI="
+    items {
+      key: "dataproc-bucket"
+      value: "rubix-dataproc-staging-dev"
+    }
+    items {
+      key: "dataproc-cloud-logging-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-cluster-configuration-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/"
+    }
+    items {
+      key: "dataproc-cluster-name"
+      value: "cdp-rubix-dev"
+    }
+    items {
+      key: "dataproc-cluster-uuid"
+      value: "7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea"
+    }
+    items {
+      key: "dataproc-initialization-script-0"
+      value: "gs://rubix-dataproc-code-dev/initialization-actions/connectors.sh"
+    }
+    items {
+      key: "dataproc-initialization-script-count"
+      value: "1"
+    }
+    items {
+      key: "dataproc-initialization-script-timeout-sec-0"
+      value: "3600"
+    }
+    items {
+      key: "dataproc-master"
+      value: "cdp-rubix-dev-m"
+    }
+    items {
+      key: "dataproc-master-additional"
+      value: ""
+    }
+    items {
+      key: "dataproc-region"
+      value: "europe-west3"
+    }
+    items {
+      key: "dataproc-temp-bucket"
+      value: "dataproc-temp-europe-west3-827519078088-m4vsgpjh"
+    }
+    items {
+      key: "dataproc-worker-agent-runner-daemon-timeout"
+      value: "30"
+    }
+    items {
+      key: "dataproc-worker-count"
+      value: "2"
+    }
+    items {
+      key: "has-driver-pool"
+      value: "false"
+    }
+    items {
+      key: "hive-metastore-instace"
+      value: "de0360-pkce-rubix-cl-dev000:europe-west3:cs-rubix-dev"
+    }
+    items {
+      key: "master-run-driver-location"
+      value: "LOCAL"
+    }
+    items {
+      key: "spark-bigquery-connector-version"
+      value: "0.21.0"
+    }
+    items {
+      key: "dataproc-agent-output-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/cdp-rubix-dev-w-0"
+    }
+    items {
+      key: "dataproc-cluster-properties"
+      value: "ZIPPY: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"
+    }
+    items {
+      key: "dataproc-cluster-properties-file"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/cluster.properties"
+    }
+    items {
+      key: "dataproc-datanode-enabled"
+      value: "true"
+    }
+    items {
+      key: "dataproc-option-run-init-actions-early"
+      value: "true"
+    }
+    items {
+      key: "dataproc-protocol-spec"
+      value: "EloKK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20SK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20="
+    }
+    items {
+      key: "dataproc-role"
+      value: "Worker"
+    }
+    items {
+      key: "node-group-roles"
+      value: "PRIMARY_WORKER"
+    }
+    kind: "compute#metadata"
+  }
+  name: "cdp-rubix-dev-w-0"
+  network_interfaces {
+    fingerprint: "rvFP6b0VONk="
+    kind: "compute#networkInterface"
+    name: "nic0"
+    network: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/global/networks/nonprod-spoke-ode-dev-0"
+    network_i_p: "100.64.0.74"
+    stack_type: "IPV4_ONLY"
+    subnetwork: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/regions/europe-west3/subnetworks/nonprod-ew3-dedicated-ode-dev-hub"
+  }
+  scheduling {
+    automatic_restart: true
+    on_host_maintenance: "MIGRATE"
+    preemptible: false
+    provisioning_model: "STANDARD"
+  }
+  self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances/cdp-rubix-dev-w-0"
+  service_accounts {
+    email: "svc-rubix-cdp@de0360-pkce-rubix-cl-dev000.iam.gserviceaccount.com"
+    scopes: "https://www.googleapis.com/auth/cloud-platform"
+    scopes: "https://www.googleapis.com/auth/cloud.useraccounts.readonly"
+    scopes: "https://www.googleapis.com/auth/devstorage.read_write"
+    scopes: "https://www.googleapis.com/auth/logging.write"
+  }
+  shielded_instance_config {
+    enable_integrity_monitoring: true
+    enable_secure_boot: true
+    enable_vtpm: true
+  }
+  shielded_instance_integrity_policy {
+    update_auto_learn_policy: true
+  }
+  start_restricted: false
+  status: "RUNNING"
+  tags {
+    fingerprint: "vhz3Y1GT2ec="
+    items: "allow-iap"
+  }
+  zone: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a"
+}
+items {
+  cpu_platform: "Intel Cascade Lake"
+  creation_timestamp: "2023-07-05T05:53:53.509-07:00"
+  deletion_protection: false
+  disks {
+    auto_delete: true
+    boot: true
+    device_name: "persistent-disk-0"
+    disk_size_gb: 500
+    guest_os_features {
+      type_: "UEFI_COMPATIBLE"
+    }
+    guest_os_features {
+      type_: "VIRTIO_SCSI_MULTIQUEUE"
+    }
+    index: 0
+    interface: "SCSI"
+    kind: "compute#attachedDisk"
+    licenses: "https://www.googleapis.com/compute/v1/projects/cloud-dataproc/global/licenses/dataproc"
+    mode: "READ_WRITE"
+    source: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/disks/cdp-rubix-dev-w-1"
+    type_: "PERSISTENT"
+  }
+  fingerprint: "-m7h1spylvk="
+  id: 882308816841529615
+  kind: "compute#instance"
+  label_fingerprint: "zsrtLf4M_CY="
+  labels {
+    key: "goog-dataproc-location"
+    value: "europe-west3"
+  }
+  labels {
+    key: "goog-dataproc-cluster-uuid"
+    value: "7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea"
+  }
+  labels {
+    key: "goog-dataproc-cluster-name"
+    value: "cdp-rubix-dev"
+  }
+  labels {
+    key: "environment"
+    value: "dev"
+  }
+  labels {
+    key: "app-parent"
+    value: "general"
+  }
+  labels {
+    key: "app-name"
+    value: "general"
+  }
+  last_start_timestamp: "2023-07-05T05:53:58.668-07:00"
+  machine_type: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/machineTypes/n2-highmem-8"
+  metadata {
+    fingerprint: "mctdKPBz9_Y="
+    items {
+      key: "dataproc-bucket"
+      value: "rubix-dataproc-staging-dev"
+    }
+    items {
+      key: "dataproc-cloud-logging-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-cluster-configuration-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/"
+    }
+    items {
+      key: "dataproc-cluster-name"
+      value: "cdp-rubix-dev"
+    }
+    items {
+      key: "dataproc-cluster-uuid"
+      value: "7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea"
+    }
+    items {
+      key: "dataproc-initialization-script-0"
+      value: "gs://rubix-dataproc-code-dev/initialization-actions/connectors.sh"
+    }
+    items {
+      key: "dataproc-initialization-script-count"
+      value: "1"
+    }
+    items {
+      key: "dataproc-initialization-script-timeout-sec-0"
+      value: "3600"
+    }
+    items {
+      key: "dataproc-master"
+      value: "cdp-rubix-dev-m"
+    }
+    items {
+      key: "dataproc-master-additional"
+      value: ""
+    }
+    items {
+      key: "dataproc-region"
+      value: "europe-west3"
+    }
+    items {
+      key: "dataproc-temp-bucket"
+      value: "dataproc-temp-europe-west3-827519078088-m4vsgpjh"
+    }
+    items {
+      key: "dataproc-worker-agent-runner-daemon-timeout"
+      value: "30"
+    }
+    items {
+      key: "dataproc-worker-count"
+      value: "2"
+    }
+    items {
+      key: "has-driver-pool"
+      value: "false"
+    }
+    items {
+      key: "hive-metastore-instace"
+      value: "de0360-pkce-rubix-cl-dev000:europe-west3:cs-rubix-dev"
+    }
+    items {
+      key: "master-run-driver-location"
+      value: "LOCAL"
+    }
+    items {
+      key: "spark-bigquery-connector-version"
+      value: "0.21.0"
+    }
+    items {
+      key: "dataproc-agent-output-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/cdp-rubix-dev-w-1"
+    }
+    items {
+      key: "dataproc-cluster-properties"
+      value: "ZIPPY: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"
+    }
+    items {
+      key: "dataproc-cluster-properties-file"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/cluster.properties"
+    }
+    items {
+      key: "dataproc-datanode-enabled"
+      value: "true"
+    }
+    items {
+      key: "dataproc-option-run-init-actions-early"
+      value: "true"
+    }
+    items {
+      key: "dataproc-protocol-spec"
+      value: "EloKK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20SK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20="
+    }
+    items {
+      key: "dataproc-role"
+      value: "Worker"
+    }
+    items {
+      key: "node-group-roles"
+      value: "PRIMARY_WORKER"
+    }
+    kind: "compute#metadata"
+  }
+  name: "cdp-rubix-dev-w-1"
+  network_interfaces {
+    fingerprint: "MTlt4v7xCNc="
+    kind: "compute#networkInterface"
+    name: "nic0"
+    network: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/global/networks/nonprod-spoke-ode-dev-0"
+    network_i_p: "100.64.0.72"
+    stack_type: "IPV4_ONLY"
+    subnetwork: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/regions/europe-west3/subnetworks/nonprod-ew3-dedicated-ode-dev-hub"
+  }
+  scheduling {
+    automatic_restart: true
+    on_host_maintenance: "MIGRATE"
+    preemptible: false
+    provisioning_model: "STANDARD"
+  }
+  self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances/cdp-rubix-dev-w-1"
+  service_accounts {
+    email: "svc-rubix-cdp@de0360-pkce-rubix-cl-dev000.iam.gserviceaccount.com"
+    scopes: "https://www.googleapis.com/auth/cloud-platform"
+    scopes: "https://www.googleapis.com/auth/cloud.useraccounts.readonly"
+    scopes: "https://www.googleapis.com/auth/devstorage.read_write"
+    scopes: "https://www.googleapis.com/auth/logging.write"
+  }
+  shielded_instance_config {
+    enable_integrity_monitoring: true
+    enable_secure_boot: true
+    enable_vtpm: true
+  }
+  shielded_instance_integrity_policy {
+    update_auto_learn_policy: true
+  }
+  start_restricted: false
+  status: "RUNNING"
+  tags {
+    fingerprint: "vhz3Y1GT2ec="
+    items: "allow-iap"
+  }
+  zone: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a"
+}
+items {
+  can_ip_forward: false
+  cpu_platform: "Intel Broadwell"
+  creation_timestamp: "2023-06-29T01:27:16.730-07:00"
+  deletion_protection: false
+  description: "Managed by the compute-vm Terraform module."
+  disks {
+    architecture: "X86_64"
+    auto_delete: true
+    boot: true
+    device_name: "persistent-disk-0"
+    disk_size_gb: 10
+    guest_os_features {
+      type_: "UEFI_COMPATIBLE"
+    }
+    guest_os_features {
+      type_: "VIRTIO_SCSI_MULTIQUEUE"
+    }
+    guest_os_features {
+      type_: "GVNIC"
+    }
+    guest_os_features {
+      type_: "SEV_CAPABLE"
+    }
+    index: 0
+    interface: "SCSI"
+    kind: "compute#attachedDisk"
+    licenses: "https://www.googleapis.com/compute/v1/projects/debian-cloud/global/licenses/debian-11-bullseye"
+    mode: "READ_WRITE"
+    source: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/disks/cl-bastion-host"
+    type_: "PERSISTENT"
+  }
+  fingerprint: "2e-5aLSB3p0="
+  id: 5081851040562740875
+  kind: "compute#instance"
+  label_fingerprint: "42WmSpB8rSM="
+  last_start_timestamp: "2023-07-13T01:03:45.094-07:00"
+  last_stop_timestamp: "2023-07-13T01:02:54.955-07:00"
+  machine_type: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/machineTypes/f1-micro"
+  metadata {
+    fingerprint: "VE5QPhV_KOQ="
+    items {
+      key: "startup-script"
+      value: "#! /bin/bash\nexport http_proxy=\"http://100.65.62.202:3128\"\nexport https_proxy=\"http://100.65.62.202:3128\"\napt-get update\napt-get install -y bash-completion kubectl dnsutils tinyproxy\ngrep -qxF \'Allow localhost\' /etc/tinyproxy/tinyproxy.conf || echo \'Allow localhost\' >> /etc/tinyproxy/tinyproxy.conf\nservice tinyproxy restart"
+    }
+    kind: "compute#metadata"
+  }
+  name: "cl-bastion-host"
+  network_interfaces {
+    fingerprint: "uJktHgscotc="
+    kind: "compute#networkInterface"
+    name: "nic0"
+    network: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/global/networks/nonprod-spoke-ode-dev-0"
+    network_i_p: "100.64.0.56"
+    stack_type: "IPV4_ONLY"
+    subnetwork: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/regions/europe-west3/subnetworks/nonprod-ew3-dedicated-ode-dev-hub"
+  }
+  scheduling {
+    automatic_restart: true
+    on_host_maintenance: "MIGRATE"
+    preemptible: false
+    provisioning_model: "STANDARD"
+  }
+  self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances/cl-bastion-host"
+  service_accounts {
+    email: "827519078088-compute@developer.gserviceaccount.com"
+    scopes: "https://www.googleapis.com/auth/devstorage.read_only"
+    scopes: "https://www.googleapis.com/auth/logging.write"
+    scopes: "https://www.googleapis.com/auth/monitoring.write"
+  }
+  shielded_instance_config {
+    enable_integrity_monitoring: true
+    enable_secure_boot: false
+    enable_vtpm: true
+  }
+  shielded_instance_integrity_policy {
+    update_auto_learn_policy: true
+  }
+  start_restricted: false
+  status: "RUNNING"
+  tags {
+    fingerprint: "pfSjJj1RiUg="
+    items: "ssh"
+  }
+  zone: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a"
+}
+kind: "compute#instanceList"
+self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances"
+>
+Projects with Instances: [({'project_id': 'de0360-pkce-rubix-cl-dev000', 'zone': 'europe-west3-a', 'tags_assertion': True, 'labels_assertion': True, 'zone_assertion': 'europe-west3-x', 'deletion_protection_assertion': True, 'confidential_vm_service_assertion': False, 'display_device_assertion': False, 'no_gpu_assertion': True, 'persistent_boot_disk_assertion': True, 'secure_boot_assertion': True, 'vtpm_assertion': True, 'integrity_monitoring_assertion': True, 'cloud_platform_api_assertion': True, 'stackdriver_logging_api_assertion': True, 'storage_api_assertion': True, 'vm_provisioning_model_assertion': 'Standard', 'max_duration_assertion': 'None', 'on_host_maintenance_assertion': 'MIGRATE', 'automatic_restart_assertion': True, 'cpu_overcommit_assertion': False}, ListPager<id: "projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances"
+items {
+  cpu_platform: "Unknown CPU Platform"
+  creation_timestamp: "2023-07-20T11:37:38.617-07:00"
+  deletion_protection: false
+  disks {
+    auto_delete: true
+    boot: true
+    device_name: "persistent-disk-0"
+    disk_size_gb: 2000
+    guest_os_features {
+      type_: "UEFI_COMPATIBLE"
+    }
+    guest_os_features {
+      type_: "VIRTIO_SCSI_MULTIQUEUE"
+    }
+    guest_os_features {
+      type_: "GVNIC"
+    }
+    index: 0
+    interface: "SCSI"
+    kind: "compute#attachedDisk"
+    licenses: "https://www.googleapis.com/compute/v1/projects/cloud-dataproc/global/licenses/dataproc"
+    mode: "READ_WRITE"
+    source: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/disks/cdp-rubix-dev-eagle-m"
+    type_: "PERSISTENT"
+  }
+  fingerprint: "vq9jQFapvmY="
+  id: 1498129581454180382
+  kind: "compute#instance"
+  label_fingerprint: "8b2EXPgs-Wg="
+  labels {
+    key: "goog-dataproc-location"
+    value: "europe-west3"
+  }
+  labels {
+    key: "goog-dataproc-cluster-uuid"
+    value: "4910b7eb-3c1e-4c29-8571-467cadaeb8f8"
+  }
+  labels {
+    key: "goog-dataproc-cluster-name"
+    value: "cdp-rubix-dev-eagle"
+  }
+  labels {
+    key: "environment"
+    value: "dev"
+  }
+  labels {
+    key: "app-parent"
+    value: "eagle"
+  }
+  labels {
+    key: "app-name"
+    value: "eagle"
+  }
+  last_start_timestamp: "2023-07-21T00:00:09.047-07:00"
+  last_stop_timestamp: "2023-07-21T03:35:02.486-07:00"
+  machine_type: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/machineTypes/e2-highmem-16"
+  metadata {
+    fingerprint: "KxV2pE4tK1w="
+    items {
+      key: "dataproc-bucket"
+      value: "rubix-dataproc-staging-dev"
+    }
+    items {
+      key: "dataproc-cloud-logging-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-cluster-configuration-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/"
+    }
+    items {
+      key: "dataproc-cluster-name"
+      value: "cdp-rubix-dev-eagle"
+    }
+    items {
+      key: "dataproc-cluster-uuid"
+      value: "4910b7eb-3c1e-4c29-8571-467cadaeb8f8"
+    }
+    items {
+      key: "dataproc-exclude-file-location"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/nodes_exclude.xml"
+    }
+    items {
+      key: "dataproc-include-file-location"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/nodes_include"
+    }
+    items {
+      key: "dataproc-initialization-script-0"
+      value: "gs://rubix-dataproc-code-dev/initialization-actions/eagle_init.sh"
+    }
+    items {
+      key: "dataproc-initialization-script-count"
+      value: "1"
+    }
+    items {
+      key: "dataproc-initialization-script-timeout-sec-0"
+      value: "3600"
+    }
+    items {
+      key: "dataproc-master"
+      value: "cdp-rubix-dev-eagle-m"
+    }
+    items {
+      key: "dataproc-master-additional"
+      value: ""
+    }
+    items {
+      key: "dataproc-region"
+      value: "europe-west3"
+    }
+    items {
+      key: "dataproc-temp-bucket"
+      value: "dataproc-temp-europe-west3-827519078088-m4vsgpjh"
+    }
+    items {
+      key: "dataproc-worker-agent-runner-daemon-timeout"
+      value: "30"
+    }
+    items {
+      key: "dataproc-worker-count"
+      value: "2"
+    }
+    items {
+      key: "has-driver-pool"
+      value: "false"
+    }
+    items {
+      key: "hive-metastore-instace"
+      value: "de0360-pkce-rubix-cl-dev000:europe-west3:cs-rubix-dev-eagle-metastore"
+    }
+    items {
+      key: "master-run-driver-location"
+      value: "LOCAL"
+    }
+    items {
+      key: "dataproc-agent-output-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/cdp-rubix-dev-eagle-m"
+    }
+    items {
+      key: "dataproc-cluster-properties"
+      value: "ZIPPY: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"
+    }
+    items {
+      key: "dataproc-cluster-properties-file"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/cluster.properties"
+    }
+    items {
+      key: "dataproc-datanode-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-option-run-init-actions-early"
+      value: "true"
+    }
+    items {
+      key: "dataproc-protocol-spec"
+      value: "EloKK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20SK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20="
+    }
+    items {
+      key: "dataproc-role"
+      value: "Master"
+    }
+    items {
+      key: "node-group-roles"
+      value: "MASTER"
+    }
+    kind: "compute#metadata"
+  }
+  name: "cdp-rubix-dev-eagle-m"
+  network_interfaces {
+    fingerprint: "aItNDX5TqxI="
+    kind: "compute#networkInterface"
+    name: "nic0"
+    network: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/global/networks/nonprod-spoke-ode-dev-0"
+    network_i_p: "100.64.0.21"
+    stack_type: "IPV4_ONLY"
+    subnetwork: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/regions/europe-west3/subnetworks/nonprod-ew3-dedicated-ode-dev-hub"
+  }
+  scheduling {
+    automatic_restart: true
+    on_host_maintenance: "MIGRATE"
+    preemptible: false
+    provisioning_model: "STANDARD"
+  }
+  self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances/cdp-rubix-dev-eagle-m"
+  service_accounts {
+    email: "svc-rubix-eagle@de0360-pkce-rubix-cl-dev000.iam.gserviceaccount.com"
+    scopes: "https://www.googleapis.com/auth/cloud-platform"
+    scopes: "https://www.googleapis.com/auth/cloud.useraccounts.readonly"
+    scopes: "https://www.googleapis.com/auth/devstorage.read_write"
+    scopes: "https://www.googleapis.com/auth/logging.write"
+  }
+  shielded_instance_config {
+    enable_integrity_monitoring: true
+    enable_secure_boot: true
+    enable_vtpm: true
+  }
+  shielded_instance_integrity_policy {
+    update_auto_learn_policy: true
+  }
+  start_restricted: false
+  status: "TERMINATED"
+  tags {
+    fingerprint: "pv15kuvxnes="
+    items: "allow-iap"
+    items: "allow-nat"
+  }
+  zone: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a"
+}
+items {
+  cpu_platform: "Unknown CPU Platform"
+  creation_timestamp: "2023-07-20T11:37:38.674-07:00"
+  deletion_protection: false
+  disks {
+    auto_delete: true
+    boot: true
+    device_name: "persistent-disk-0"
+    disk_size_gb: 50
+    guest_os_features {
+      type_: "UEFI_COMPATIBLE"
+    }
+    guest_os_features {
+      type_: "VIRTIO_SCSI_MULTIQUEUE"
+    }
+    guest_os_features {
+      type_: "GVNIC"
+    }
+    index: 0
+    interface: "SCSI"
+    kind: "compute#attachedDisk"
+    licenses: "https://www.googleapis.com/compute/v1/projects/cloud-dataproc/global/licenses/dataproc"
+    mode: "READ_WRITE"
+    source: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/disks/cdp-rubix-dev-eagle-w-0"
+    type_: "PERSISTENT"
+  }
+  fingerprint: "f2Cyeu1a-g4="
+  id: 5972879711633981470
+  kind: "compute#instance"
+  label_fingerprint: "8b2EXPgs-Wg="
+  labels {
+    key: "goog-dataproc-location"
+    value: "europe-west3"
+  }
+  labels {
+    key: "goog-dataproc-cluster-uuid"
+    value: "4910b7eb-3c1e-4c29-8571-467cadaeb8f8"
+  }
+  labels {
+    key: "goog-dataproc-cluster-name"
+    value: "cdp-rubix-dev-eagle"
+  }
+  labels {
+    key: "environment"
+    value: "dev"
+  }
+  labels {
+    key: "app-parent"
+    value: "eagle"
+  }
+  labels {
+    key: "app-name"
+    value: "eagle"
+  }
+  last_start_timestamp: "2023-07-20T23:59:57.541-07:00"
+  last_stop_timestamp: "2023-07-21T03:36:19.196-07:00"
+  machine_type: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/machineTypes/n2-highmem-16"
+  metadata {
+    fingerprint: "vHVyO95eRgU="
+    items {
+      key: "dataproc-bucket"
+      value: "rubix-dataproc-staging-dev"
+    }
+    items {
+      key: "dataproc-cloud-logging-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-cluster-configuration-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/"
+    }
+    items {
+      key: "dataproc-cluster-name"
+      value: "cdp-rubix-dev-eagle"
+    }
+    items {
+      key: "dataproc-cluster-uuid"
+      value: "4910b7eb-3c1e-4c29-8571-467cadaeb8f8"
+    }
+    items {
+      key: "dataproc-exclude-file-location"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/nodes_exclude.xml"
+    }
+    items {
+      key: "dataproc-include-file-location"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/nodes_include"
+    }
+    items {
+      key: "dataproc-initialization-script-0"
+      value: "gs://rubix-dataproc-code-dev/initialization-actions/eagle_init.sh"
+    }
+    items {
+      key: "dataproc-initialization-script-count"
+      value: "1"
+    }
+    items {
+      key: "dataproc-initialization-script-timeout-sec-0"
+      value: "3600"
+    }
+    items {
+      key: "dataproc-master"
+      value: "cdp-rubix-dev-eagle-m"
+    }
+    items {
+      key: "dataproc-master-additional"
+      value: ""
+    }
+    items {
+      key: "dataproc-region"
+      value: "europe-west3"
+    }
+    items {
+      key: "dataproc-temp-bucket"
+      value: "dataproc-temp-europe-west3-827519078088-m4vsgpjh"
+    }
+    items {
+      key: "dataproc-worker-agent-runner-daemon-timeout"
+      value: "30"
+    }
+    items {
+      key: "dataproc-worker-count"
+      value: "2"
+    }
+    items {
+      key: "has-driver-pool"
+      value: "false"
+    }
+    items {
+      key: "hive-metastore-instace"
+      value: "de0360-pkce-rubix-cl-dev000:europe-west3:cs-rubix-dev-eagle-metastore"
+    }
+    items {
+      key: "master-run-driver-location"
+      value: "LOCAL"
+    }
+    items {
+      key: "dataproc-agent-output-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/cdp-rubix-dev-eagle-w-0"
+    }
+    items {
+      key: "dataproc-cluster-properties"
+      value: "ZIPPY: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"
+    }
+    items {
+      key: "dataproc-cluster-properties-file"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/cluster.properties"
+    }
+    items {
+      key: "dataproc-datanode-enabled"
+      value: "true"
+    }
+    items {
+      key: "dataproc-option-run-init-actions-early"
+      value: "true"
+    }
+    items {
+      key: "dataproc-protocol-spec"
+      value: "EloKK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20SK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20="
+    }
+    items {
+      key: "dataproc-role"
+      value: "Worker"
+    }
+    items {
+      key: "node-group-roles"
+      value: "PRIMARY_WORKER"
+    }
+    kind: "compute#metadata"
+  }
+  name: "cdp-rubix-dev-eagle-w-0"
+  network_interfaces {
+    fingerprint: "zWfr5UZiFPU="
+    kind: "compute#networkInterface"
+    name: "nic0"
+    network: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/global/networks/nonprod-spoke-ode-dev-0"
+    network_i_p: "100.64.0.2"
+    stack_type: "IPV4_ONLY"
+    subnetwork: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/regions/europe-west3/subnetworks/nonprod-ew3-dedicated-ode-dev-hub"
+  }
+  scheduling {
+    automatic_restart: true
+    on_host_maintenance: "MIGRATE"
+    preemptible: false
+    provisioning_model: "STANDARD"
+  }
+  self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances/cdp-rubix-dev-eagle-w-0"
+  service_accounts {
+    email: "svc-rubix-eagle@de0360-pkce-rubix-cl-dev000.iam.gserviceaccount.com"
+    scopes: "https://www.googleapis.com/auth/cloud-platform"
+    scopes: "https://www.googleapis.com/auth/cloud.useraccounts.readonly"
+    scopes: "https://www.googleapis.com/auth/devstorage.read_write"
+    scopes: "https://www.googleapis.com/auth/logging.write"
+  }
+  shielded_instance_config {
+    enable_integrity_monitoring: true
+    enable_secure_boot: true
+    enable_vtpm: true
+  }
+  shielded_instance_integrity_policy {
+    update_auto_learn_policy: true
+  }
+  start_restricted: false
+  status: "TERMINATED"
+  tags {
+    fingerprint: "pv15kuvxnes="
+    items: "allow-iap"
+    items: "allow-nat"
+  }
+  zone: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a"
+}
+items {
+  cpu_platform: "Unknown CPU Platform"
+  creation_timestamp: "2023-07-20T11:37:38.609-07:00"
+  deletion_protection: false
+  disks {
+    auto_delete: true
+    boot: true
+    device_name: "persistent-disk-0"
+    disk_size_gb: 50
+    guest_os_features {
+      type_: "UEFI_COMPATIBLE"
+    }
+    guest_os_features {
+      type_: "VIRTIO_SCSI_MULTIQUEUE"
+    }
+    guest_os_features {
+      type_: "GVNIC"
+    }
+    index: 0
+    interface: "SCSI"
+    kind: "compute#attachedDisk"
+    licenses: "https://www.googleapis.com/compute/v1/projects/cloud-dataproc/global/licenses/dataproc"
+    mode: "READ_WRITE"
+    source: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/disks/cdp-rubix-dev-eagle-w-1"
+    type_: "PERSISTENT"
+  }
+  fingerprint: "_zMiL79XkYM="
+  id: 2584275610307444766
+  kind: "compute#instance"
+  label_fingerprint: "8b2EXPgs-Wg="
+  labels {
+    key: "goog-dataproc-location"
+    value: "europe-west3"
+  }
+  labels {
+    key: "goog-dataproc-cluster-uuid"
+    value: "4910b7eb-3c1e-4c29-8571-467cadaeb8f8"
+  }
+  labels {
+    key: "goog-dataproc-cluster-name"
+    value: "cdp-rubix-dev-eagle"
+  }
+  labels {
+    key: "environment"
+    value: "dev"
+  }
+  labels {
+    key: "app-parent"
+    value: "eagle"
+  }
+  labels {
+    key: "app-name"
+    value: "eagle"
+  }
+  last_start_timestamp: "2023-07-20T23:59:59.478-07:00"
+  last_stop_timestamp: "2023-07-21T03:35:49.160-07:00"
+  machine_type: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/machineTypes/n2-highmem-16"
+  metadata {
+    fingerprint: "rsEO7Y37vhI="
+    items {
+      key: "dataproc-bucket"
+      value: "rubix-dataproc-staging-dev"
+    }
+    items {
+      key: "dataproc-cloud-logging-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-cluster-configuration-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/"
+    }
+    items {
+      key: "dataproc-cluster-name"
+      value: "cdp-rubix-dev-eagle"
+    }
+    items {
+      key: "dataproc-cluster-uuid"
+      value: "4910b7eb-3c1e-4c29-8571-467cadaeb8f8"
+    }
+    items {
+      key: "dataproc-exclude-file-location"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/nodes_exclude.xml"
+    }
+    items {
+      key: "dataproc-include-file-location"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/nodes_include"
+    }
+    items {
+      key: "dataproc-initialization-script-0"
+      value: "gs://rubix-dataproc-code-dev/initialization-actions/eagle_init.sh"
+    }
+    items {
+      key: "dataproc-initialization-script-count"
+      value: "1"
+    }
+    items {
+      key: "dataproc-initialization-script-timeout-sec-0"
+      value: "3600"
+    }
+    items {
+      key: "dataproc-master"
+      value: "cdp-rubix-dev-eagle-m"
+    }
+    items {
+      key: "dataproc-master-additional"
+      value: ""
+    }
+    items {
+      key: "dataproc-region"
+      value: "europe-west3"
+    }
+    items {
+      key: "dataproc-temp-bucket"
+      value: "dataproc-temp-europe-west3-827519078088-m4vsgpjh"
+    }
+    items {
+      key: "dataproc-worker-agent-runner-daemon-timeout"
+      value: "30"
+    }
+    items {
+      key: "dataproc-worker-count"
+      value: "2"
+    }
+    items {
+      key: "has-driver-pool"
+      value: "false"
+    }
+    items {
+      key: "hive-metastore-instace"
+      value: "de0360-pkce-rubix-cl-dev000:europe-west3:cs-rubix-dev-eagle-metastore"
+    }
+    items {
+      key: "master-run-driver-location"
+      value: "LOCAL"
+    }
+    items {
+      key: "dataproc-agent-output-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/cdp-rubix-dev-eagle-w-1"
+    }
+    items {
+      key: "dataproc-cluster-properties"
+      value: "ZIPPY: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"
+    }
+    items {
+      key: "dataproc-cluster-properties-file"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/4910b7eb-3c1e-4c29-8571-467cadaeb8f8/cluster.properties"
+    }
+    items {
+      key: "dataproc-datanode-enabled"
+      value: "true"
+    }
+    items {
+      key: "dataproc-option-run-init-actions-early"
+      value: "true"
+    }
+    items {
+      key: "dataproc-protocol-spec"
+      value: "EloKK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20SK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20="
+    }
+    items {
+      key: "dataproc-role"
+      value: "Worker"
+    }
+    items {
+      key: "node-group-roles"
+      value: "PRIMARY_WORKER"
+    }
+    kind: "compute#metadata"
+  }
+  name: "cdp-rubix-dev-eagle-w-1"
+  network_interfaces {
+    fingerprint: "fxexJaobzlY="
+    kind: "compute#networkInterface"
+    name: "nic0"
+    network: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/global/networks/nonprod-spoke-ode-dev-0"
+    network_i_p: "100.64.0.4"
+    stack_type: "IPV4_ONLY"
+    subnetwork: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/regions/europe-west3/subnetworks/nonprod-ew3-dedicated-ode-dev-hub"
+  }
+  scheduling {
+    automatic_restart: true
+    on_host_maintenance: "MIGRATE"
+    preemptible: false
+    provisioning_model: "STANDARD"
+  }
+  self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances/cdp-rubix-dev-eagle-w-1"
+  service_accounts {
+    email: "svc-rubix-eagle@de0360-pkce-rubix-cl-dev000.iam.gserviceaccount.com"
+    scopes: "https://www.googleapis.com/auth/cloud-platform"
+    scopes: "https://www.googleapis.com/auth/cloud.useraccounts.readonly"
+    scopes: "https://www.googleapis.com/auth/devstorage.read_write"
+    scopes: "https://www.googleapis.com/auth/logging.write"
+  }
+  shielded_instance_config {
+    enable_integrity_monitoring: true
+    enable_secure_boot: true
+    enable_vtpm: true
+  }
+  shielded_instance_integrity_policy {
+    update_auto_learn_policy: true
+  }
+  start_restricted: false
+  status: "TERMINATED"
+  tags {
+    fingerprint: "pv15kuvxnes="
+    items: "allow-iap"
+    items: "allow-nat"
+  }
+  zone: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a"
+}
+items {
+  cpu_platform: "Intel Cascade Lake"
+  creation_timestamp: "2023-07-05T05:53:53.539-07:00"
+  deletion_protection: false
+  disks {
+    auto_delete: true
+    boot: true
+    device_name: "persistent-disk-0"
+    disk_size_gb: 500
+    guest_os_features {
+      type_: "UEFI_COMPATIBLE"
+    }
+    guest_os_features {
+      type_: "VIRTIO_SCSI_MULTIQUEUE"
+    }
+    index: 0
+    interface: "SCSI"
+    kind: "compute#attachedDisk"
+    licenses: "https://www.googleapis.com/compute/v1/projects/cloud-dataproc/global/licenses/dataproc"
+    mode: "READ_WRITE"
+    source: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/disks/cdp-rubix-dev-m"
+    type_: "PERSISTENT"
+  }
+  fingerprint: "YMpgrHdaE1E="
+  id: 5988244433148631311
+  kind: "compute#instance"
+  label_fingerprint: "zsrtLf4M_CY="
+  labels {
+    key: "goog-dataproc-location"
+    value: "europe-west3"
+  }
+  labels {
+    key: "goog-dataproc-cluster-uuid"
+    value: "7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea"
+  }
+  labels {
+    key: "goog-dataproc-cluster-name"
+    value: "cdp-rubix-dev"
+  }
+  labels {
+    key: "environment"
+    value: "dev"
+  }
+  labels {
+    key: "app-parent"
+    value: "general"
+  }
+  labels {
+    key: "app-name"
+    value: "general"
+  }
+  last_start_timestamp: "2023-07-05T05:53:58.354-07:00"
+  machine_type: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/machineTypes/n2-highmem-8"
+  metadata {
+    fingerprint: "GoJKrMgWom0="
+    items {
+      key: "dataproc-bucket"
+      value: "rubix-dataproc-staging-dev"
+    }
+    items {
+      key: "dataproc-cloud-logging-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-cluster-configuration-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/"
+    }
+    items {
+      key: "dataproc-cluster-name"
+      value: "cdp-rubix-dev"
+    }
+    items {
+      key: "dataproc-cluster-uuid"
+      value: "7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea"
+    }
+    items {
+      key: "dataproc-initialization-script-0"
+      value: "gs://rubix-dataproc-code-dev/initialization-actions/connectors.sh"
+    }
+    items {
+      key: "dataproc-initialization-script-count"
+      value: "1"
+    }
+    items {
+      key: "dataproc-initialization-script-timeout-sec-0"
+      value: "3600"
+    }
+    items {
+      key: "dataproc-master"
+      value: "cdp-rubix-dev-m"
+    }
+    items {
+      key: "dataproc-master-additional"
+      value: ""
+    }
+    items {
+      key: "dataproc-region"
+      value: "europe-west3"
+    }
+    items {
+      key: "dataproc-temp-bucket"
+      value: "dataproc-temp-europe-west3-827519078088-m4vsgpjh"
+    }
+    items {
+      key: "dataproc-worker-agent-runner-daemon-timeout"
+      value: "30"
+    }
+    items {
+      key: "dataproc-worker-count"
+      value: "2"
+    }
+    items {
+      key: "has-driver-pool"
+      value: "false"
+    }
+    items {
+      key: "hive-metastore-instace"
+      value: "de0360-pkce-rubix-cl-dev000:europe-west3:cs-rubix-dev"
+    }
+    items {
+      key: "master-run-driver-location"
+      value: "LOCAL"
+    }
+    items {
+      key: "spark-bigquery-connector-version"
+      value: "0.21.0"
+    }
+    items {
+      key: "dataproc-agent-output-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/cdp-rubix-dev-m"
+    }
+    items {
+      key: "dataproc-cluster-properties"
+      value: "ZIPPY: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"
+    }
+    items {
+      key: "dataproc-cluster-properties-file"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/cluster.properties"
+    }
+    items {
+      key: "dataproc-datanode-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-option-run-init-actions-early"
+      value: "true"
+    }
+    items {
+      key: "dataproc-protocol-spec"
+      value: "EloKK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20SK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20="
+    }
+    items {
+      key: "dataproc-role"
+      value: "Master"
+    }
+    items {
+      key: "node-group-roles"
+      value: "MASTER"
+    }
+    kind: "compute#metadata"
+  }
+  name: "cdp-rubix-dev-m"
+  network_interfaces {
+    fingerprint: "0OFc9piiblw="
+    kind: "compute#networkInterface"
+    name: "nic0"
+    network: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/global/networks/nonprod-spoke-ode-dev-0"
+    network_i_p: "100.64.0.73"
+    stack_type: "IPV4_ONLY"
+    subnetwork: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/regions/europe-west3/subnetworks/nonprod-ew3-dedicated-ode-dev-hub"
+  }
+  scheduling {
+    automatic_restart: true
+    on_host_maintenance: "MIGRATE"
+    preemptible: false
+    provisioning_model: "STANDARD"
+  }
+  self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances/cdp-rubix-dev-m"
+  service_accounts {
+    email: "svc-rubix-cdp@de0360-pkce-rubix-cl-dev000.iam.gserviceaccount.com"
+    scopes: "https://www.googleapis.com/auth/cloud-platform"
+    scopes: "https://www.googleapis.com/auth/cloud.useraccounts.readonly"
+    scopes: "https://www.googleapis.com/auth/devstorage.read_write"
+    scopes: "https://www.googleapis.com/auth/logging.write"
+  }
+  shielded_instance_config {
+    enable_integrity_monitoring: true
+    enable_secure_boot: true
+    enable_vtpm: true
+  }
+  shielded_instance_integrity_policy {
+    update_auto_learn_policy: true
+  }
+  start_restricted: false
+  status: "RUNNING"
+  tags {
+    fingerprint: "vhz3Y1GT2ec="
+    items: "allow-iap"
+  }
+  zone: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a"
+}
+items {
+  cpu_platform: "Intel Cascade Lake"
+  creation_timestamp: "2023-07-05T05:53:53.515-07:00"
+  deletion_protection: false
+  disks {
+    auto_delete: true
+    boot: true
+    device_name: "persistent-disk-0"
+    disk_size_gb: 500
+    guest_os_features {
+      type_: "UEFI_COMPATIBLE"
+    }
+    guest_os_features {
+      type_: "VIRTIO_SCSI_MULTIQUEUE"
+    }
+    index: 0
+    interface: "SCSI"
+    kind: "compute#attachedDisk"
+    licenses: "https://www.googleapis.com/compute/v1/projects/cloud-dataproc/global/licenses/dataproc"
+    mode: "READ_WRITE"
+    source: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/disks/cdp-rubix-dev-w-0"
+    type_: "PERSISTENT"
+  }
+  fingerprint: "-2QN7XPrGQY="
+  id: 4271002107458935055
+  kind: "compute#instance"
+  label_fingerprint: "zsrtLf4M_CY="
+  labels {
+    key: "goog-dataproc-location"
+    value: "europe-west3"
+  }
+  labels {
+    key: "goog-dataproc-cluster-uuid"
+    value: "7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea"
+  }
+  labels {
+    key: "goog-dataproc-cluster-name"
+    value: "cdp-rubix-dev"
+  }
+  labels {
+    key: "environment"
+    value: "dev"
+  }
+  labels {
+    key: "app-parent"
+    value: "general"
+  }
+  labels {
+    key: "app-name"
+    value: "general"
+  }
+  last_start_timestamp: "2023-07-05T05:53:59.033-07:00"
+  machine_type: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/machineTypes/n2-highmem-8"
+  metadata {
+    fingerprint: "dLYeZK9vozI="
+    items {
+      key: "dataproc-bucket"
+      value: "rubix-dataproc-staging-dev"
+    }
+    items {
+      key: "dataproc-cloud-logging-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-cluster-configuration-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/"
+    }
+    items {
+      key: "dataproc-cluster-name"
+      value: "cdp-rubix-dev"
+    }
+    items {
+      key: "dataproc-cluster-uuid"
+      value: "7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea"
+    }
+    items {
+      key: "dataproc-initialization-script-0"
+      value: "gs://rubix-dataproc-code-dev/initialization-actions/connectors.sh"
+    }
+    items {
+      key: "dataproc-initialization-script-count"
+      value: "1"
+    }
+    items {
+      key: "dataproc-initialization-script-timeout-sec-0"
+      value: "3600"
+    }
+    items {
+      key: "dataproc-master"
+      value: "cdp-rubix-dev-m"
+    }
+    items {
+      key: "dataproc-master-additional"
+      value: ""
+    }
+    items {
+      key: "dataproc-region"
+      value: "europe-west3"
+    }
+    items {
+      key: "dataproc-temp-bucket"
+      value: "dataproc-temp-europe-west3-827519078088-m4vsgpjh"
+    }
+    items {
+      key: "dataproc-worker-agent-runner-daemon-timeout"
+      value: "30"
+    }
+    items {
+      key: "dataproc-worker-count"
+      value: "2"
+    }
+    items {
+      key: "has-driver-pool"
+      value: "false"
+    }
+    items {
+      key: "hive-metastore-instace"
+      value: "de0360-pkce-rubix-cl-dev000:europe-west3:cs-rubix-dev"
+    }
+    items {
+      key: "master-run-driver-location"
+      value: "LOCAL"
+    }
+    items {
+      key: "spark-bigquery-connector-version"
+      value: "0.21.0"
+    }
+    items {
+      key: "dataproc-agent-output-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/cdp-rubix-dev-w-0"
+    }
+    items {
+      key: "dataproc-cluster-properties"
+      value: "ZIPPY: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"
+    }
+    items {
+      key: "dataproc-cluster-properties-file"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/cluster.properties"
+    }
+    items {
+      key: "dataproc-datanode-enabled"
+      value: "true"
+    }
+    items {
+      key: "dataproc-option-run-init-actions-early"
+      value: "true"
+    }
+    items {
+      key: "dataproc-protocol-spec"
+      value: "EloKK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20SK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20="
+    }
+    items {
+      key: "dataproc-role"
+      value: "Worker"
+    }
+    items {
+      key: "node-group-roles"
+      value: "PRIMARY_WORKER"
+    }
+    kind: "compute#metadata"
+  }
+  name: "cdp-rubix-dev-w-0"
+  network_interfaces {
+    fingerprint: "rvFP6b0VONk="
+    kind: "compute#networkInterface"
+    name: "nic0"
+    network: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/global/networks/nonprod-spoke-ode-dev-0"
+    network_i_p: "100.64.0.74"
+    stack_type: "IPV4_ONLY"
+    subnetwork: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/regions/europe-west3/subnetworks/nonprod-ew3-dedicated-ode-dev-hub"
+  }
+  scheduling {
+    automatic_restart: true
+    on_host_maintenance: "MIGRATE"
+    preemptible: false
+    provisioning_model: "STANDARD"
+  }
+  self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances/cdp-rubix-dev-w-0"
+  service_accounts {
+    email: "svc-rubix-cdp@de0360-pkce-rubix-cl-dev000.iam.gserviceaccount.com"
+    scopes: "https://www.googleapis.com/auth/cloud-platform"
+    scopes: "https://www.googleapis.com/auth/cloud.useraccounts.readonly"
+    scopes: "https://www.googleapis.com/auth/devstorage.read_write"
+    scopes: "https://www.googleapis.com/auth/logging.write"
+  }
+  shielded_instance_config {
+    enable_integrity_monitoring: true
+    enable_secure_boot: true
+    enable_vtpm: true
+  }
+  shielded_instance_integrity_policy {
+    update_auto_learn_policy: true
+  }
+  start_restricted: false
+  status: "RUNNING"
+  tags {
+    fingerprint: "vhz3Y1GT2ec="
+    items: "allow-iap"
+  }
+  zone: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a"
+}
+items {
+  cpu_platform: "Intel Cascade Lake"
+  creation_timestamp: "2023-07-05T05:53:53.509-07:00"
+  deletion_protection: false
+  disks {
+    auto_delete: true
+    boot: true
+    device_name: "persistent-disk-0"
+    disk_size_gb: 500
+    guest_os_features {
+      type_: "UEFI_COMPATIBLE"
+    }
+    guest_os_features {
+      type_: "VIRTIO_SCSI_MULTIQUEUE"
+    }
+    index: 0
+    interface: "SCSI"
+    kind: "compute#attachedDisk"
+    licenses: "https://www.googleapis.com/compute/v1/projects/cloud-dataproc/global/licenses/dataproc"
+    mode: "READ_WRITE"
+    source: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/disks/cdp-rubix-dev-w-1"
+    type_: "PERSISTENT"
+  }
+  fingerprint: "-m7h1spylvk="
+  id: 882308816841529615
+  kind: "compute#instance"
+  label_fingerprint: "zsrtLf4M_CY="
+  labels {
+    key: "goog-dataproc-location"
+    value: "europe-west3"
+  }
+  labels {
+    key: "goog-dataproc-cluster-uuid"
+    value: "7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea"
+  }
+  labels {
+    key: "goog-dataproc-cluster-name"
+    value: "cdp-rubix-dev"
+  }
+  labels {
+    key: "environment"
+    value: "dev"
+  }
+  labels {
+    key: "app-parent"
+    value: "general"
+  }
+  labels {
+    key: "app-name"
+    value: "general"
+  }
+  last_start_timestamp: "2023-07-05T05:53:58.668-07:00"
+  machine_type: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/machineTypes/n2-highmem-8"
+  metadata {
+    fingerprint: "mctdKPBz9_Y="
+    items {
+      key: "dataproc-bucket"
+      value: "rubix-dataproc-staging-dev"
+    }
+    items {
+      key: "dataproc-cloud-logging-enabled"
+      value: "false"
+    }
+    items {
+      key: "dataproc-cluster-configuration-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/"
+    }
+    items {
+      key: "dataproc-cluster-name"
+      value: "cdp-rubix-dev"
+    }
+    items {
+      key: "dataproc-cluster-uuid"
+      value: "7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea"
+    }
+    items {
+      key: "dataproc-initialization-script-0"
+      value: "gs://rubix-dataproc-code-dev/initialization-actions/connectors.sh"
+    }
+    items {
+      key: "dataproc-initialization-script-count"
+      value: "1"
+    }
+    items {
+      key: "dataproc-initialization-script-timeout-sec-0"
+      value: "3600"
+    }
+    items {
+      key: "dataproc-master"
+      value: "cdp-rubix-dev-m"
+    }
+    items {
+      key: "dataproc-master-additional"
+      value: ""
+    }
+    items {
+      key: "dataproc-region"
+      value: "europe-west3"
+    }
+    items {
+      key: "dataproc-temp-bucket"
+      value: "dataproc-temp-europe-west3-827519078088-m4vsgpjh"
+    }
+    items {
+      key: "dataproc-worker-agent-runner-daemon-timeout"
+      value: "30"
+    }
+    items {
+      key: "dataproc-worker-count"
+      value: "2"
+    }
+    items {
+      key: "has-driver-pool"
+      value: "false"
+    }
+    items {
+      key: "hive-metastore-instace"
+      value: "de0360-pkce-rubix-cl-dev000:europe-west3:cs-rubix-dev"
+    }
+    items {
+      key: "master-run-driver-location"
+      value: "LOCAL"
+    }
+    items {
+      key: "spark-bigquery-connector-version"
+      value: "0.21.0"
+    }
+    items {
+      key: "dataproc-agent-output-directory"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/cdp-rubix-dev-w-1"
+    }
+    items {
+      key: "dataproc-cluster-properties"
+      value: "ZIPPY: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"
+    }
+    items {
+      key: "dataproc-cluster-properties-file"
+      value: "gs://rubix-dataproc-staging-dev/google-cloud-dataproc-metainfo/7b1a6455-9fc2-4907-b81f-1a32fcf8b8ea/cluster.properties"
+    }
+    items {
+      key: "dataproc-datanode-enabled"
+      value: "true"
+    }
+    items {
+      key: "dataproc-option-run-init-actions-early"
+      value: "true"
+    }
+    items {
+      key: "dataproc-protocol-spec"
+      value: "EloKK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20SK2RhdGFwcm9jY29udHJvbC1ldXJvcGUtd2VzdDMuZ29vZ2xlYXBpcy5jb20="
+    }
+    items {
+      key: "dataproc-role"
+      value: "Worker"
+    }
+    items {
+      key: "node-group-roles"
+      value: "PRIMARY_WORKER"
+    }
+    kind: "compute#metadata"
+  }
+  name: "cdp-rubix-dev-w-1"
+  network_interfaces {
+    fingerprint: "MTlt4v7xCNc="
+    kind: "compute#networkInterface"
+    name: "nic0"
+    network: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/global/networks/nonprod-spoke-ode-dev-0"
+    network_i_p: "100.64.0.72"
+    stack_type: "IPV4_ONLY"
+    subnetwork: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/regions/europe-west3/subnetworks/nonprod-ew3-dedicated-ode-dev-hub"
+  }
+  scheduling {
+    automatic_restart: true
+    on_host_maintenance: "MIGRATE"
+    preemptible: false
+    provisioning_model: "STANDARD"
+  }
+  self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances/cdp-rubix-dev-w-1"
+  service_accounts {
+    email: "svc-rubix-cdp@de0360-pkce-rubix-cl-dev000.iam.gserviceaccount.com"
+    scopes: "https://www.googleapis.com/auth/cloud-platform"
+    scopes: "https://www.googleapis.com/auth/cloud.useraccounts.readonly"
+    scopes: "https://www.googleapis.com/auth/devstorage.read_write"
+    scopes: "https://www.googleapis.com/auth/logging.write"
+  }
+  shielded_instance_config {
+    enable_integrity_monitoring: true
+    enable_secure_boot: true
+    enable_vtpm: true
+  }
+  shielded_instance_integrity_policy {
+    update_auto_learn_policy: true
+  }
+  start_restricted: false
+  status: "RUNNING"
+  tags {
+    fingerprint: "vhz3Y1GT2ec="
+    items: "allow-iap"
+  }
+  zone: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a"
+}
+items {
+  can_ip_forward: false
+  cpu_platform: "Intel Broadwell"
+  creation_timestamp: "2023-06-29T01:27:16.730-07:00"
+  deletion_protection: false
+  description: "Managed by the compute-vm Terraform module."
+  disks {
+    architecture: "X86_64"
+    auto_delete: true
+    boot: true
+    device_name: "persistent-disk-0"
+    disk_size_gb: 10
+    guest_os_features {
+      type_: "UEFI_COMPATIBLE"
+    }
+    guest_os_features {
+      type_: "VIRTIO_SCSI_MULTIQUEUE"
+    }
+    guest_os_features {
+      type_: "GVNIC"
+    }
+    guest_os_features {
+      type_: "SEV_CAPABLE"
+    }
+    index: 0
+    interface: "SCSI"
+    kind: "compute#attachedDisk"
+    licenses: "https://www.googleapis.com/compute/v1/projects/debian-cloud/global/licenses/debian-11-bullseye"
+    mode: "READ_WRITE"
+    source: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/disks/cl-bastion-host"
+    type_: "PERSISTENT"
+  }
+  fingerprint: "2e-5aLSB3p0="
+  id: 5081851040562740875
+  kind: "compute#instance"
+  label_fingerprint: "42WmSpB8rSM="
+  last_start_timestamp: "2023-07-13T01:03:45.094-07:00"
+  last_stop_timestamp: "2023-07-13T01:02:54.955-07:00"
+  machine_type: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/machineTypes/f1-micro"
+  metadata {
+    fingerprint: "VE5QPhV_KOQ="
+    items {
+      key: "startup-script"
+      value: "#! /bin/bash\nexport http_proxy=\"http://100.65.62.202:3128\"\nexport https_proxy=\"http://100.65.62.202:3128\"\napt-get update\napt-get install -y bash-completion kubectl dnsutils tinyproxy\ngrep -qxF \'Allow localhost\' /etc/tinyproxy/tinyproxy.conf || echo \'Allow localhost\' >> /etc/tinyproxy/tinyproxy.conf\nservice tinyproxy restart"
+    }
+    kind: "compute#metadata"
+  }
+  name: "cl-bastion-host"
+  network_interfaces {
+    fingerprint: "uJktHgscotc="
+    kind: "compute#networkInterface"
+    name: "nic0"
+    network: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/global/networks/nonprod-spoke-ode-dev-0"
+    network_i_p: "100.64.0.56"
+    stack_type: "IPV4_ONLY"
+    subnetwork: "https://www.googleapis.com/compute/v1/projects/de0360-nonprod-net-spoke-ode-1/regions/europe-west3/subnetworks/nonprod-ew3-dedicated-ode-dev-hub"
+  }
+  scheduling {
+    automatic_restart: true
+    on_host_maintenance: "MIGRATE"
+    preemptible: false
+    provisioning_model: "STANDARD"
+  }
+  self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances/cl-bastion-host"
+  service_accounts {
+    email: "827519078088-compute@developer.gserviceaccount.com"
+    scopes: "https://www.googleapis.com/auth/devstorage.read_only"
+    scopes: "https://www.googleapis.com/auth/logging.write"
+    scopes: "https://www.googleapis.com/auth/monitoring.write"
+  }
+  shielded_instance_config {
+    enable_integrity_monitoring: true
+    enable_secure_boot: false
+    enable_vtpm: true
+  }
+  shielded_instance_integrity_policy {
+    update_auto_learn_policy: true
+  }
+  start_restricted: false
+  status: "RUNNING"
+  tags {
+    fingerprint: "pfSjJj1RiUg="
+    items: "ssh"
+  }
+  zone: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a"
+}
+kind: "compute#instanceList"
+self_link: "https://www.googleapis.com/compute/v1/projects/de0360-pkce-rubix-cl-dev000/zones/europe-west3-a/instances"
+>)]
+Running test for Project ID: de0360-pkce-rubix-cl-dev000
+Labels found for VM instance cdp-rubix-dev-eagle-m in project de0360-pkce-rubix-cl-dev000
+Labels found for VM instance cdp-rubix-dev-eagle-w-0 in project de0360-pkce-rubix-cl-dev000
+Labels found for VM instance cdp-rubix-dev-eagle-w-1 in project de0360-pkce-rubix-cl-dev000
+Labels found for VM instance cdp-rubix-dev-m in project de0360-pkce-rubix-cl-dev000
+Labels found for VM instance cdp-rubix-dev-w-0 in project de0360-pkce-rubix-cl-dev000
+Labels found for VM instance cdp-rubix-dev-w-1 in project de0360-pkce-rubix-cl-dev000
+No Labels found for VM instance cl-bastion-host in project de0360-pkce-rubix-cl-dev000

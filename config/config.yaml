@@ -1,0 +1,44 @@
+projects:
+  - project_id: de0360-pkce-rubix-cl-dev000
+    zone: europe-west3-a
+    tags_assertion: True
+    labels_assertion: True
+    zone_assertion: europe-west3-a
+    deletion_protection_assertion: True
+    confidential_vm_service_assertion: False
+    display_device_assertion: False
+    no_gpu_assertion: 0
+    persistent_boot_disk_assertion: PERSISTENT
+    secure_boot_assertion: True
+    vtpm_assertion: True
+    integrity_monitoring_assertion: True
+    cloud_platform_api_assertion: True
+    stackdriver_logging_api_assertion: True
+    storage_api_assertion: True
+    vm_provisioning_model_assertion: STANDARD
+    max_duration_assertion: None
+    on_host_maintenance_assertion: MIGRATE
+    automatic_restart_assertion: True
+    cpu_overcommit_assertion: False
+  - project_id: de0360-pkce-rubix-cl-uat000
+    zone: europe-west3-a
+    tags_assertion: True
+    labels_assertion: True
+    zone_assertion: europe-west3-a
+    deletion_protection_assertion: True
+    confidential_vm_service_assertion: False
+    display_device_assertion: False
+    no_gpu_assertion: 0
+    persistent_boot_disk_assertion: PERSISTENT
+    secure_boot_assertion: True
+    vtpm_assertion: True
+    integrity_monitoring_assertion: True
+    cloud_platform_api_assertion: True
+    stackdriver_logging_api_assertion: True
+    storage_api_assertion: True
+    vm_provisioning_model_assertion: STANDARD
+    max_duration_assertion: None
+    on_host_maintenance_assertion: MIGRATE
+    automatic_restart_assertion: True
+    cpu_overcommit_assertion: False
+#    # Add more projects as needed

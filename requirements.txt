@@ -1,0 +1,14 @@
+google-cloud-storage #GCS
+google-cloud-compute #VM
+google-cloud-bigquery #BQ
+google-cloud-bigtable #BQ
+google-cloud-dataproc #Dataproc
+google-cloud-iam #IAM
+google-cloud-gke-hub #GKE
+cloud-sql-python-connector #CloudSQL
+cloud-sql-instance-manager #CloudSQL
+scipy>=0.13.3 #Composer
+scikit-learn #Composer
+nltk[machine_learning] #Composer
+pytest #Pytest
+allure-pytest #Allure Reporting

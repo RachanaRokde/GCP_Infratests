@@ -1,0 +1,8 @@
+Running test for Project ID: de0360-pkce-rubix-cl-dev000
+Zone assertion passed for VM instance cdp-rubix-dev-eagle-m
+Zone assertion passed for VM instance cdp-rubix-dev-eagle-w-0
+Zone assertion passed for VM instance cdp-rubix-dev-eagle-w-1
+Zone assertion passed for VM instance cdp-rubix-dev-m
+Zone assertion passed for VM instance cdp-rubix-dev-w-0
+Zone assertion passed for VM instance cdp-rubix-dev-w-1
+Zone assertion passed for VM instance cl-bastion-host

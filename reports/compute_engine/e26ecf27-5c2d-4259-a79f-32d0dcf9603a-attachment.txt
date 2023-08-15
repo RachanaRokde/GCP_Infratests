@@ -1,0 +1,7 @@
+Labels found for VM instance cdp-rubix-dev-eagle-m in project de0360-pkce-rubix-cl-dev000
+Labels found for VM instance cdp-rubix-dev-eagle-w-0 in project de0360-pkce-rubix-cl-dev000
+Labels found for VM instance cdp-rubix-dev-eagle-w-1 in project de0360-pkce-rubix-cl-dev000
+Labels found for VM instance cdp-rubix-dev-m in project de0360-pkce-rubix-cl-dev000
+Labels found for VM instance cdp-rubix-dev-w-0 in project de0360-pkce-rubix-cl-dev000
+Labels found for VM instance cdp-rubix-dev-w-1 in project de0360-pkce-rubix-cl-dev000
+No Labels found for VM instance cl-bastion-host in project de0360-pkce-rubix-cl-dev000

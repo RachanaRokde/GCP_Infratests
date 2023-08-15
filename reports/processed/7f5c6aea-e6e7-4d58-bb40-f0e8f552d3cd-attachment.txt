@@ -1,0 +1,12 @@
+Integrity Monitoring is enabled for VM instance cdp-rubix-dev-eagle-m in project de0360-pkce-rubix-cl-dev000
+Integrity Monitoring is enabled for VM instance cdp-rubix-dev-eagle-w-0 in project de0360-pkce-rubix-cl-dev000
+Integrity Monitoring is enabled for VM instance cdp-rubix-dev-eagle-w-1 in project de0360-pkce-rubix-cl-dev000
+Integrity Monitoring is enabled for VM instance cdp-rubix-dev-m in project de0360-pkce-rubix-cl-dev000
+Integrity Monitoring is enabled for VM instance cdp-rubix-dev-w-0 in project de0360-pkce-rubix-cl-dev000
+Integrity Monitoring is enabled for VM instance cdp-rubix-dev-w-1 in project de0360-pkce-rubix-cl-dev000
+Integrity Monitoring is enabled for VM instance cl-bastion-host in project de0360-pkce-rubix-cl-dev000
+Integrity Monitoring is enabled for VM instance cdp-rubix-uat-m in project de0360-pkce-rubix-cl-uat000
+Integrity Monitoring is enabled for VM instance cdp-rubix-uat-w-0 in project de0360-pkce-rubix-cl-uat000
+Integrity Monitoring is enabled for VM instance cdp-rubix-uat-w-1 in project de0360-pkce-rubix-cl-uat000
+Integrity Monitoring is enabled for VM instance cl-bastion-host in project de0360-pkce-rubix-cl-uat000
+Integrity Monitoring is enabled for VM instance gke-websvc-websvc-nodepool-a159bd27-ni95 in project de0360-pkce-rubix-cl-uat000

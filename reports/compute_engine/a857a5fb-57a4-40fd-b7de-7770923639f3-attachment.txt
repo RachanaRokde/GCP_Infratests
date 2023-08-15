@@ -1,0 +1,12 @@
+Zone assertion passed for VM instance cdp-rubix-dev-eagle-m
+Zone assertion passed for VM instance cdp-rubix-dev-eagle-w-0
+Zone assertion passed for VM instance cdp-rubix-dev-eagle-w-1
+Zone assertion passed for VM instance cdp-rubix-dev-m
+Zone assertion passed for VM instance cdp-rubix-dev-w-0
+Zone assertion passed for VM instance cdp-rubix-dev-w-1
+Zone assertion passed for VM instance cl-bastion-host
+Zone assertion passed for VM instance cdp-rubix-uat-m
+Zone assertion passed for VM instance cdp-rubix-uat-w-0
+Zone assertion passed for VM instance cdp-rubix-uat-w-1
+Zone assertion passed for VM instance cl-bastion-host
+Zone assertion passed for VM instance gke-websvc-websvc-nodepool-a159bd27-ni95
