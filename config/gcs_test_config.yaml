@@ -1,0 +1,4 @@
+projects:
+  - project_id: de0002-poc-fdac-0
+    zone: europe-west3-a
+    tags_assertion: True

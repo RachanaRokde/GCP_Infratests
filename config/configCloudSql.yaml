@@ -1,0 +1,48 @@
+projects:
+  - project_id: de0360-pkce-rubix-cl-dev000
+    zone: europe-west3-a
+    Database_labels_assertion: True
+    Database flags_assertion : False
+    zone_assertion: europe-west3-a
+    Point_in_time recovery_assertion: True
+    High availability_assertion: True
+    Instance_deletion_protection_assertion: True
+    automatic_backups_assertion: True
+    Auto_storage_assertion: True
+    Maintenance window_assertion: Sunday, 2:30 PM — 3:30 PM GMT+5:30
+    Private IP connectivity_assertion: True
+    Public IP connectivity_assertion: False
+    Persistent storage_assertion: True
+
+  - project_id: de0360-pkce-rubix-cl-uat000
+    zone: europe-west3-a
+    Database_labels_assertion: True
+    Database flags_assertion : False
+    zone_assertion: europe-west3-a
+    Point_in_time recovery_assertion: True
+    High availability_assertion: True
+    Instance_deletion_protection_assertion: True
+    automatic_backups_assertion: True
+    Auto_storage_assertion: True
+    Maintenance window_assertion: Sunday, 2:30 PM — 3:30 PM GMT+5:30
+    Private IP connectivity_assertion: True
+    Public IP connectivity_assertion: False
+    Persistent storage_assertion: True
+
+
+  - project_id: de0360-pkce-rubix-cl-prd000
+    zone: europe-west3-a
+    Database_labels_assertion: True
+    Database flags_assertion: False
+    zone_assertion: europe-west3-a
+    Point_in_time recovery_assertion: True
+    High availability_assertion: True
+    Instance_deletion_protection_assertion: True
+    automatic_backups_assertion: True
+    Auto_storage_assertion: True
+    Maintenance window_assertion: Sunday, 2:30 PM — 3:30 PM GMT+5:30
+    Private IP connectivity_assertion: True
+    Public IP connectivity_assertion: False
+    Persistent storage_assertion: True
+
+#    # Add more projects as needed
