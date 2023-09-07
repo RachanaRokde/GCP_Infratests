@@ -1,0 +1,39 @@
+{
+  "Created Date": "2023-04-12T06:23:50.808000+00:00",
+  "Location Type": "region",
+  "Location": "EUROPE-WEST3",
+  "Default Storage Class": "STANDARD",
+  "Requester Pays": false,
+  "Tags": {
+    "domain": "qa"
+  },
+  "Labels": {
+    "domain": "qa"
+  },
+  "Cloud Console URL": "https://console.cloud.google.com/storage/browser/qa-poc-bucket",
+  "gsutil URI": "gs://qa-poc-bucket",
+  "Access Control": [],
+  "Public Access Prevention": "enforced",
+  "Public Access Status": true,
+  "Object Versioning": false,
+  "Bucket Retention Policy": null,
+  "Bucket Retention Period": null,
+  "Bucket Retention Policy Locked": null,
+  "Bucket Retention Policy Effective Time": null,
+  "Bucket Meta Generation": 1,
+  "Bucket ID": "qa-poc-bucket",
+  "Bucket Data Locations": null,
+  "Encryption Type": null,
+  "Lifecycle Rules": [],
+  "bucket_iam_config": {
+    "uniformBucketLevelAccess": {
+      "enabled": true,
+      "lockedTime": "2023-07-11T06:23:50.808Z"
+    },
+    "publicAccessPrevention": "enforced",
+    "bucketPolicyOnly": {
+      "enabled": true,
+      "lockedTime": "2023-07-11T06:23:50.808Z"
+    }
+  }
+}
