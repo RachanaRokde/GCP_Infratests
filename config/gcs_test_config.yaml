@@ -1,11 +1,14 @@
 projects:
-  - project_id: de0002-poc-fdac-0
+  - project_id: de0002-pkce-rubix-al-dev000
     zone: europe-west3-a
     tags_assertion: True
-    label_assertion: True
+    labels_assertion: True
     object_versioning_assertion: True
     public_access_assertion: True
-    access_control_assertion: Uniform # FineGrained
-    location_assertion: true
-    location_type_assertion: true
+    access_control_assertion: Uniform
+    location_assertion: True
+    location_type_assertion: True
     storage_class_assertion: True
+  - project_id: de0002-poc-fdac-0
+    zone: europe-west3-a
+    labels_assertion: True

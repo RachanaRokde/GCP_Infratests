@@ -8,12 +8,16 @@ with open("/Users/dpkprmr/PycharmProjects/Learning/GCP_Infratests/config/config.
     config = yaml.safe_load(config_file)
 
 
-# Fixture to fetch VM instances for each project and store them as class attributes
+'''
+    ====================
+    Fixture to fetch VM instances for each project and store them as class attributes
+    ====================
+'''
 def fetch_project_vm_instances(project_id, zone):
     # Get the zone for the specific project from the configuration
     project = next((p for p in config["projects"] if p["project_id"] == project_id), None)
     if not project:
-        raise ValueError(f"Project with project_id '{project_id}' not found in the configuration YAML.")
+        raise ValueError(f"Project with project_id '{project_id}' not found")
 
     zone = project.get("zone", None)
     if not zone:
